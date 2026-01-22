@@ -26,13 +26,13 @@ tex_fonts = {
 plt.rcParams.update(tex_fonts)
     
 
-# 创建图形，设置1行2列的子图布局
+# Create a figure with a 1-row, 2-column subplot layout
 fig, axes = plt.subplots(1, 2, figsize=(20, 7))
 
-# 获取epochs数据
+# Get epochs data
 epochs = torch.arange(results_clip['options']['num_epochs']) + 1
 
-# 第一个子图：Generator结果
+# First subplot: Generator results
 ax1 = axes[0]
 
 ax1.errorbar(epochs, torch.sum(results_sgda['gen']['mean'], 0) / 4, 
@@ -57,7 +57,7 @@ ax1.set_title('Generator', fontsize=20)
 ax1.grid(linestyle='--', alpha=0.5)
 
 
-# 第二个子图：Discriminator结果
+# Second subplot: Discriminator results
 ax2 = axes[1]
 
 ax2.errorbar(epochs, torch.sum(results_sgda['dis']['mean'], 0) / 4, 
