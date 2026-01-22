@@ -1,6 +1,6 @@
 # Generalization-of-Biased-Stochastic-Gradient-Methods-for-Minimax-Problems
 
-## requirements
+## Requirements
 ```
 python==3.10
 numpy==2.2.5
