@@ -48,7 +48,7 @@ def exp_stability(data, algo, eta_p):
     gen_diff['mean'] = np.mean(gen_ret, 0)
     gen_diff['std'] = np.std(gen_ret, 0)
     np.save('res/' + data + str(options['eta_p'] * 100) + str(algo) +'.npy', {'options':options, 'n_tr':n_tr, 'res_idx':res_idx, 'dist_diff':dist_diff, 'gen_diff':gen_diff}) 
-    print('res/' + data + str(options['eta_p'] * 100) + str(algo) +'.npy'+)
+    print('res/' + data + str(options['eta_p'] * 100) + str(algo) +'.npy')
     
 def help_exp(arg1, arg2, algo):
     arg = arg1 + (arg2,) + (algo, )
