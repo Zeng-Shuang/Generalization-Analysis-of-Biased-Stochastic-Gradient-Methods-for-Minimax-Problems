@@ -1,12 +1,8 @@
 from exp_stability import exp_stability
-
-from read_auc import read_auc
-
 import os
 import random
 import argparse
 import numpy as np
-
 import matplotlib.pyplot as plt
 
 
@@ -25,4 +21,5 @@ if __name__ == '__main__':
     set_seed(42)
 
     for eta_p in [1e-2, 3e-2, 5e-2]:
+
         exp_stability(args.data, args.algorithm, eta_p)
