@@ -18,7 +18,7 @@ def exp_stability(remove_index, manual_seed, options):
     elif method == 'zero':
         train_func = train_zero
     else:
-        raise ValueError(f"未知算法类型: {method}")
+        raise ValueError(f"Unknown type of method: {method}")
     
      # Train for the first time (using the selected train_func)
     gen_param_1, dis_param_1 = train_func(data_1, manual_seed, options)
