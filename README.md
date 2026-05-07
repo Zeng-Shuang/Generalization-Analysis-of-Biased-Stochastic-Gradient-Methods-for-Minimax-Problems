@@ -1,4 +1,4 @@
-# Generalization-of-Biased-Stochastic-Gradient-Methods-for-Minimax-Problems
+# Generalization-Analysis-of-Biased-Stochastic-Gradient-Methods-for-Minimax-Problems
 
 ## Requirements
 ```
