@@ -22,5 +22,5 @@ python auc_code/plot_gen.py
 ```
 cd ./gan
 python gan_code/exp_cv.py
-python auc_code/read_results.py
+python gan_code/read_results.py
 ```
