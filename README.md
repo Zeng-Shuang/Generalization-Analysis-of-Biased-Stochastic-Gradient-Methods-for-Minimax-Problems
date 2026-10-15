@@ -1,4 +1,5 @@
 # Generalization-Analysis-of-Biased-Stochastic-Gradient-Methods-for-Minimax-Problems
+Official implementation of "Generalization Analysis of Biased Stochastic Gradient Methods for Minimax Problems" (Neurips 2026) https://arxiv.org/pdf/2610.19322
 
 ## Requirements
 ```
